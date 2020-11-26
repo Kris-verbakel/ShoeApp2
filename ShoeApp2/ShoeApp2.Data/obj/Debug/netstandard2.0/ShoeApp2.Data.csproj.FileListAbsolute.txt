@@ -1,0 +1,6 @@
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\bin\Debug\netstandard2.0\ShoeApp2.Data.deps.json
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\bin\Debug\netstandard2.0\ShoeApp2.Data.dll
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\obj\Debug\netstandard2.0\ShoeApp2.Data.csprojAssemblyReference.cache
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\obj\Debug\netstandard2.0\ShoeApp2.Data.AssemblyInfoInputs.cache
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\obj\Debug\netstandard2.0\ShoeApp2.Data.AssemblyInfo.cs
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\bin\Debug\netstandard2.0\ShoeApp2.Interface.dll

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8A5GU/5xxRs8Blg/bL0TGaP26kj7A1z57uMv6pon+yth98vDu4qq0LCnykhNLGJsNRhGgCWfoR4fnFYUvjdM7A==",
+  "success": true,
+  "projectFilePath": "D:\\Git\\ShoeApp2\\ShoeApp2\\ShoeApp2.Interface\\ShoeApp2.Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
