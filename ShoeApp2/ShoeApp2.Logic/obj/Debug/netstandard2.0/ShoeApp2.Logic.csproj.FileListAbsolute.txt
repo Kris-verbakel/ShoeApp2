@@ -1,0 +1,12 @@
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Logic\bin\Debug\netstandard2.0\ShoeApp2.Logic.deps.json
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Logic\bin\Debug\netstandard2.0\ShoeApp2.Logic.dll
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Logic\bin\Debug\netstandard2.0\ShoeApp2.Logic.pdb
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Logic\bin\Debug\netstandard2.0\ShoeApp2.Interface.dll
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Logic\bin\Debug\netstandard2.0\ShoeApp2.Interface.pdb
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Logic\obj\Debug\netstandard2.0\ShoeApp2.Logic.csprojAssemblyReference.cache
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Logic\obj\Debug\netstandard2.0\ShoeApp2.Logic.AssemblyInfoInputs.cache
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Logic\obj\Debug\netstandard2.0\ShoeApp2.Logic.AssemblyInfo.cs
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Logic\obj\Debug\netstandard2.0\ShoeApp2.Logic.csproj.CoreCompileInputs.cache
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Logic\obj\Debug\netstandard2.0\ShoeApp2.Logic.csproj.CopyComplete
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Logic\obj\Debug\netstandard2.0\ShoeApp2.Logic.dll
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Logic\obj\Debug\netstandard2.0\ShoeApp2.Logic.pdb

@@ -8,6 +8,11 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ShoeApp2.Logic.Interfaces;
+using ShoeApp2.Interface;
+using ShoeApp2.Interface.Interfaces;
+using ShoeApp2.Data.DAL;
+using ShoeApp2.Logic.Models.Shoe;
 
 namespace ShoeApp2
 {
@@ -24,6 +29,11 @@ namespace ShoeApp2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            //register dependencies
+            services.AddScoped<IShoeDAL, ShoeDAL>();
+            services.AddScoped<IShoeContainer, ShoeContainer>(); 
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

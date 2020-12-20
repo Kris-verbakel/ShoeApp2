@@ -4,3 +4,9 @@ D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\obj\Debug\netstandard2.0\ShoeApp2.Data.cs
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\obj\Debug\netstandard2.0\ShoeApp2.Data.AssemblyInfoInputs.cache
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\obj\Debug\netstandard2.0\ShoeApp2.Data.AssemblyInfo.cs
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\bin\Debug\netstandard2.0\ShoeApp2.Interface.dll
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\bin\Debug\netstandard2.0\ShoeApp2.Data.pdb
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\bin\Debug\netstandard2.0\ShoeApp2.Interface.pdb
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\obj\Debug\netstandard2.0\ShoeApp2.Data.csproj.CoreCompileInputs.cache
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\obj\Debug\netstandard2.0\ShoeApp2.Data.csproj.CopyComplete
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\obj\Debug\netstandard2.0\ShoeApp2.Data.dll
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2.Data\obj\Debug\netstandard2.0\ShoeApp2.Data.pdb
