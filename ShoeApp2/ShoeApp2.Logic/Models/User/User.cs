@@ -5,12 +5,12 @@ using ShoeApp2.Interface;
 
 namespace ShoeApp2.Logic.Models.User
 {
-    class User
+    public class User
     {
-        public int Id { get; }
-        public string Email { get; }
-        public string Password { get; }
-        public string Username { get; }
+        public int Id { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public string Username { get; set; }
 
         public User(UserDTO userDTO)
         {

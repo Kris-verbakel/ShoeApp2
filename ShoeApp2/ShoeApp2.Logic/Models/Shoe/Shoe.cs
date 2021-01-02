@@ -10,6 +10,7 @@ namespace ShoeApp2.Logic.Models.Shoe
         public string Name { get; set; }
         public int Price { get; set; }
         public string Description { get; set; }
+        public string ImageURL { get; set; }
 
         public Shoe(ShoeDTO shoeDTO)
         {
@@ -17,7 +18,8 @@ namespace ShoeApp2.Logic.Models.Shoe
             this.Brand = shoeDTO.Brand;
             this.Name = shoeDTO.Name;
             this.Price = shoeDTO.Price;
-            this.Description = shoeDTO.Description; 
+            this.Description = shoeDTO.Description;
+            this.ImageURL = shoeDTO.ImageURL;            
         }
     }
 }

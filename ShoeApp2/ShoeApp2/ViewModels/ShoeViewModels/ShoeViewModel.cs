@@ -14,6 +14,7 @@ namespace ShoeApp2.ViewModels.ShoeViewModels
         public string Name { get; set; }
         public string Description { get; set; }
         public double Price { get; set; }
+        public string ImageURL { get; set; }
 
         public ShoeViewModel(Shoe shoe)
         {
@@ -22,6 +23,7 @@ namespace ShoeApp2.ViewModels.ShoeViewModels
             this.Name = shoe.Name;
             this.Price = shoe.Price;
             this.Description = shoe.Description;
+            this.ImageURL = shoe.ImageURL; 
         }
     }
 }

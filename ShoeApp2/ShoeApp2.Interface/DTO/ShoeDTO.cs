@@ -11,6 +11,6 @@ namespace ShoeApp2.Interface.DTO
         public string Name { get; set; }
         public int Price { get; set; }
         public string Description { get; set; }
-
+        public string ImageURL { get; set; }
     }
 }

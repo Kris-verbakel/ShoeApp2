@@ -6,27 +6,49 @@ using Microsoft.AspNetCore.Mvc;
 using ShoeApp2.ViewModels;
 using ShoeApp2.Data; 
 using ShoeApp2.ViewModels.ShoeViewModels;
+using ShoeApp2.Logic.Interfaces;
 
 namespace ShoeApp2.Controllers
 {
     public class ShoeController : Controller
     {
+        private readonly IShoeContainer _shoeContainer;
+
+        public ShoeController(IShoeContainer shoeContainer)
+        {
+            _shoeContainer = shoeContainer; 
+        }
+
         public IActionResult Index()
         {
             return View();
         }
 
+        //GET: Shoe/ListShoe
         public IActionResult ListShoe()
         {
-           //var shoe = new ShoeViewModel { Brand = "Nike", Name = "AF1", Price = 99.99, Description = "White SHoe" };
-           //var shoe2 = new ShoeViewModel { Brand = "Adidas", Name = "Superstar", Price = 79.99, Description = null };
-       
+            var result = _shoeContainer.GetAllShoes(); 
             var shoes = new List<ShoeViewModel>();
 
-           // shoes.Add(shoe);
-           // shoes.Add(shoe2); 
-
+            foreach(var shoe in result)
+            {
+                var model = new ShoeViewModel(shoe);
+                shoes.Add(model); 
+            }
             return View(shoes); 
+        }
+
+        public IActionResult ListShoeByBrand(string brand)
+        {
+            var result = _shoeContainer.GetShoesByBrand(brand);
+            var shoes = new List<ShoeViewModel>();
+
+            foreach (var shoe in result)
+            {
+                var model = new ShoeViewModel(shoe);
+                shoes.Add(model);
+            }
+            return View("ListShoe", shoes);
         }
     }
 }

@@ -47,8 +47,6 @@ D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\staticwebassets\ShoeAp
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\ShoeApp2.dll
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\ShoeApp2.pdb
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\ShoeApp2.genruntimeconfig.cache
-D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\Razor\Views\Shoe\Index.cshtml.g.cs
-D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\Razor\Views\Account\Index.cshtml.g.cs
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -125,3 +123,5 @@ D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.Code
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\ShoeApp2.csproj.CoreCompileInputs.cache
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\ShoeApp2.MvcApplicationPartsAssemblyInfo.cache
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\Razor\Views\Shoe\ListShoe.cshtml.g.cs
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\Razor\Views\Account\Profile.cshtml.g.cs
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartialView.cshtml.g.cs

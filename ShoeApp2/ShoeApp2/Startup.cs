@@ -13,6 +13,7 @@ using ShoeApp2.Interface;
 using ShoeApp2.Interface.Interfaces;
 using ShoeApp2.Data.DAL;
 using ShoeApp2.Logic.Models.Shoe;
+using ShoeApp2.Logic.Models.User;
 
 namespace ShoeApp2
 {
@@ -32,7 +33,9 @@ namespace ShoeApp2
 
             //register dependencies
             services.AddScoped<IShoeDAL, ShoeDAL>();
-            services.AddScoped<IShoeContainer, ShoeContainer>(); 
+            services.AddScoped<IShoeContainer, ShoeContainer>();
+            services.AddScoped<IUserDAL, UserDAL>();
+            services.AddScoped<IUserContainer, UserContainer>(); 
 
         }
 

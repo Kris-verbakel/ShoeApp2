@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.ComponentModel.DataAnnotations; 
+using System.ComponentModel.DataAnnotations;
+using ShoeApp2.Logic.Models.User;
 
 namespace ShoeApp2.Models.AcountModels
 {
@@ -17,5 +18,6 @@ namespace ShoeApp2.Models.AcountModels
         public string Password { get; set; }
         [Display(Name = "Remember me")]
         public bool RememberMe { get; set; }
+
     }
 }
