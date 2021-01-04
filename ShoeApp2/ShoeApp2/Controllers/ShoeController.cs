@@ -38,14 +38,16 @@ namespace ShoeApp2.Controllers
             return View(shoes); 
         }
 
-        public IActionResult ListShoeByBrand(string brand)
+        
+        //POST: Shoe/ListShoe
+        public IActionResult ListShoeByBrand(ShoeViewModel model)
         {
-            var result = _shoeContainer.GetShoesByBrand(brand);
+            var result = _shoeContainer.GetShoesByBrand(model.Brand);
             var shoes = new List<ShoeViewModel>();
 
             foreach (var shoe in result)
             {
-                var model = new ShoeViewModel(shoe);
+                var model1 = new ShoeViewModel(shoe);
                 shoes.Add(model);
             }
             return View("ListShoe", shoes);

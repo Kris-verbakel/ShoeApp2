@@ -125,3 +125,5 @@ D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\ShoeApp2.MvcApplicatio
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\Razor\Views\Shoe\ListShoe.cshtml.g.cs
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\Razor\Views\Account\Profile.cshtml.g.cs
 D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartialView.cshtml.g.cs
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\Razor\Views\Account\Users.cshtml.g.cs
+D:\Git\ShoeApp2\ShoeApp2\ShoeApp2\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs

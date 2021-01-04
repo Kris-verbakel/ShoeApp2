@@ -14,6 +14,7 @@ using ShoeApp2.Interface.Interfaces;
 using ShoeApp2.Data.DAL;
 using ShoeApp2.Logic.Models.Shoe;
 using ShoeApp2.Logic.Models.User;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace ShoeApp2
 {
@@ -30,6 +31,10 @@ namespace ShoeApp2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            //Enable cookie authentication 
+            services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                    .AddCookie();
 
             //register dependencies
             services.AddScoped<IShoeDAL, ShoeDAL>();
@@ -56,6 +61,9 @@ namespace ShoeApp2
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            // Add authentication to request pipeline
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

@@ -35,7 +35,7 @@ namespace ShoeApp2.Controllers
             return View(); 
         }
 
-        [AllowAnonymous]
+        //POST: Account/Login
         [HttpPost]
         public async Task<IActionResult> Login(LoginViewModel model)
         {
@@ -72,6 +72,21 @@ namespace ShoeApp2.Controllers
             return View(new ProfileViewModel() { EmailAddress = user.Email, Username = user.Username }); 
         }
 
+        //POST:Account/Profile
+        [HttpPost]
+        public IActionResult Profile(ProfileViewModel model)
+        {
+            if(ModelState.IsValid)
+            {
+                var user = _userContainer.GetUserByEmail(User.Identity.Name);
+
+                _userContainer.UpdateProfile(model.Username, model.EmailAddress, user.Id);
+
+                return View(); 
+            }
+            return View(model); 
+        }
+
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
@@ -79,14 +94,32 @@ namespace ShoeApp2.Controllers
             return RedirectToAction("Login", "Account");
         }
 
-        /*POST:Account/Profile
+        //GET: Account/Users
+
         [HttpGet]
-        public IActionResult Profile()
+        public IActionResult Users()
         {
-            if(ModelState.IsValid)
+            var result = _userContainer.GetAllUsers();
+            var users = new List<UserViewModel>();
+
+            foreach (var user in result)
             {
-                _userContainer.UpdateProfile()
+                var model = new UserViewModel(user);
+                users.Add(model);
             }
-        }*/
+            return View(users);
+        }
+
+        [HttpGet]
+        public IActionResult Register()
+        {
+            return View(); 
+        }
+
+        [HttpPost]
+        public IActionResult Register(RegisterViewModel model)
+        {
+            return View(); 
+        }
     }
 }
